@@ -23,7 +23,7 @@ body , html{
   margin:20px 0;
   padding: 1rem;
   box-shadow: 0 1px 15px  #141414 inset;
-  background-color:  #dabd8b;
+  background-color:  #151514ff;
   width: 100%;
   height: auto;
 }
@@ -97,7 +97,7 @@ color: white;
 </head>
 <body>
     <footer class="footer" id="include-footer">
-<div class="footer-div"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28665.22969122228!2d87.92639821019456!3d26.093900587226088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e516befd097303%3A0xb171e5facfa2a2d8!2sKishanganj%2C%20Bihar%20855107!5e0!3m2!1sen!2sin!4v1758648469245!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<div class="footer-div"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16771.567916168806!2d84.44187846202993!3d26.45696472229701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39931ace38b4be2b%3A0xed4849770012e298!2sWard%20No.%2015%2C%20Gopalganj%2C%20Bihar%20841428!5e0!3m2!1sen!2sin!4v1762465296343!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 <div class="footer-div">
 
 <h2>Quick Links</h2>
@@ -112,25 +112,23 @@ color: white;
     </div>
     <div class="footer-div">
       <h2>Social Link</h2>
-  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+  <a href="http://localhost/its-smita-portfolio/index.php#projects" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-linkedin"></i> LinkedIn
   </a>
-  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/smitakumari02" target="_blank" rel="nohttps://github.com/smitakumari02opener noreferrer">
     <i class="fab fa-instagram"></i> Instagram
   </a>
   <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-twitter"></i> Twitter
   </a>
-  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-facebook"></i> Facebook
+  <a href="https://github.com/smitakumari02" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i> Github
   </a>
   <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-youtube"></i> YouTube
   </a>
- <a href="https://campusxchange.wuaze.com/" style="font-weight:bolder; color: white;" title="Explore CampusXchange Services">  <i class='fas fa-lightbulb'></i> CampusXchange</a>
-  <a><i class="fas fa-phone"></i> +919155726625</a>
+ <a><i class="fas fa-phone"></i> +917007427717</a>
     </div>
  </footer>
-
 </body>
 </html>

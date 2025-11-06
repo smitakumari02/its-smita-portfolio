@@ -28,9 +28,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Smita Pandey— Full-Stack Web Developer" />
   <meta property="og:description" content="Portfolio of Smita Pandey — explore projects, services, and contact information." />
-  <meta property="og:url" content="https://pankajportfolio.free.nf/" />
-  <meta property="og:site_name" content="Pankaj Portfolio" />
-  <meta property="og:image" content="https://pankajportfolio.free.nf/images/Me.jpeg" />
+  <meta property="og:url" content="https://smitapandey.free.nf/" />
+  <meta property="og:site_name" content="Smita Portfolio" />
+  <meta property="og:image" content="https://smitapandey.free.nf/images/Me.jpeg" />
   <meta property="og:image:alt" content="Portfolio of Smita Pandey — Web Developer" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -39,7 +39,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Smita Pandey — Full-Stack Web Developer" />
   <meta name="twitter:description" content="Explore the portfolio of Smita Pandey: Full-stack web developer skilled in HTML, CSS, JS, and PHP." />
-  <meta name="twitter:image" content="https://pankajportfolio.free.nf/images/Me.jpeg" />
+  <meta name="twitter:image" content="https://smitapandey.free.nf/images/Me.jpeg" />
 
   <!-- Language -->
   <meta http-equiv="content-language" content="en" />
@@ -84,7 +84,7 @@
         <div class="logo"> </div>
         <div>
           <h1>Smita Pandey</h1>
-          <small class="muted">Full-stack developer</small>
+          <small class="muted" id="tag">Full-stack developer</small>
         </div>
       </div>
 
@@ -110,7 +110,7 @@
         <p>I'm a full-stack web developer who builds fast, accessible, and beautiful web experiences. I enjoy turning complex problems</p>
         <div class="cta">
           <a class="btn" href="#projects"><i class="fa-solid fa-eye"></i> View Work</a>
-          <button class="btn secondary" ><a href="images/pankajResume.pdf" download=""><i class="fa-solid fa-download"></i> Resume</a></button>
+          <button class="btn secondary" ><a href="images/Smita_Intern.pdf" download="download"><i class="fa-solid fa-download"></i> Resume</a></button>
         </div>
 
         <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
@@ -189,7 +189,7 @@
           <div class="year">2023 - 2026</div>
           <div>
             <strong>Bachelor of Computer Application</strong>
-            <div class="muted">Teerthanker Mahaveer University — Graduated with honours. Focused on algorithms, DBMS and web technologies.</div>
+            <div >Teerthanker Mahaveer University — Graduated with honours. Focused on algorithms, DBMS and web technologies.</div>
           </div>
         </div>
 
@@ -197,12 +197,14 @@
           <div class="year">2021 - 2023</div>
           <div>
             <strong>Senior Secondary</strong>
-            <div class="muted">GopalGanj</div>
+            <div >Rajendra H/S Belhi Khas, KATEYA, GOPALGANJ</div>
           </div>
         </div>
       </div>
     </section>
-
+<br>
+<br>
+<br>
     <!-- SKILLS -->
     <section id="skills">
       <div class="section-head"><h3>Skills</h3><small class="muted">— technical proficiency</small></div>
@@ -250,9 +252,9 @@
         <article class="project-card fade-up" data-type="web" data-title="CampusXchange" data-desc="A study resource sharing platform for students. Features notes, blogs and project marketplace." data-tech="HTML, CSS, PHP, MySQL">
           <img src="images/Project1.png" loading="lazy" alt="CampusXchange screenshot">
           <div>
-            <strong>CampusXchange</strong>
-            <div class="muted">Web development & Tech Service</div>
-            <div class="tags"><span class="tag">HTML,CSS,JS</span><span class="tag">PHP</span><span class="tag">MySQL</span><br><br><span class="tag"><a href="https://testcampusxchange.page.gd/">View<i class="fa-solid fa-eye"></i></a></span> <span class="tag"><a href="https://github.com/Pankajdas0025">Code</a></span></div>
+            <strong>TMU ERP clone</strong>
+            <div class="muted"></div>
+            <div class="tags"><span class="tag">HTML,CSS,JS</span><br><br><span class="tag"><a href="https://testcampusxchange.page.gd/">View<i class="fa-solid fa-eye"></i></a></span> <span class="tag"><a href="https://github.com/Pankajdas0025">Code</a></span></div>
           </div>
         </article>
 
@@ -260,9 +262,9 @@
         <article class="project-card fade-up" data-type="app" data-title="TaskFlow" data-desc="A progressive task manager with offline support and local sync." data-tech="JavaScript, Service Workers, IndexedDB">
           <img src="images/Project2.png" loading="lazy" alt="TaskFlow screenshot">
           <div>
-            <strong>BlogScript</strong>
-            <div class="muted">CRUD based blog application</div>
-            <div class="tags"><span class="tag">HTML,CSS,JS</span><span class="tag">PHP</span><span class="tag">MySQL</span><br><br><span class="tag"><a href="https://blogscriptapp.free.nf/">View<i class="fa-solid fa-eye"></i></a></span> <span class="tag"><a href="https://github.com/Pankajdas0025">Code<i class="fa-solid fa-code"></i></a></span></div>
+            <strong>Products Page</strong>
+            <div class="muted">Ecommerce Product Category Design</div>
+            <div class="tags"><span class="tag">HTML,CSS,JS</span><br><br><span class="tag"><a href="https://blogscriptapp.free.nf/">View<i class="fa-solid fa-eye"></i></a></span> <span class="tag"><a href="https://github.com/Pankajdas0025">Code<i class="fa-solid fa-code"></i></a></span></div>
           </div>
         </article>
 
@@ -270,39 +272,9 @@
         <article class="project-card fade-up" data-type="tool" data-title="SeoBuddy" data-desc="A lightweight SEO reporting tool for small sites." data-tech="Node.js, Puppeteer">
           <img src="images/Project3.png" loading="lazy" alt="SeoBuddy screenshot">
           <div>
-            <strong>Resume Maker</strong>
-            <div class="muted">Make ATS based resume</div>
-            <div class="tags"><span class="tag">HTML,CSS,JS</span><span class="tag">PHP</span><span class="tag">MySQL</span><br><br><span class="tag"><a href="https://github.com/Pankajdas0025/RESUME_MAKER.git">View</a></span> <span class="tag"><a href="https://github.com/Pankajdas0025/RESUME_MAKER.git">Code<i class="fa-solid fa-code"></i></a></span></div>
-          </div>
-        </article>
-
-        <!-- Project 4 (repeat with different content) -->
-        <article class="project-card fade-up" data-type="web" data-title="Portfolio Revamp" data-desc="Personal portfolio template with animations and CMS-ready sections." data-tech="HTML, CSS, JS">
-          <img src="images/Project4.png" loading="lazy" alt="Portfolio screenshot">
-          <div>
-            <strong>xyz coaching website</strong>
-            <div class="muted">Educational platform</div>
-            <div class="tags"><span class="tag">Design</span><span class="tag">JQuery</span><span class="tag">PHP</span><br><br><span class="tag"><a href="https://github.com/Pankajdas0025/">View</a></span> <span class="tag"><a href="https://github.com/Pankajdas0025/">Code<i class="fa-solid fa-code"></i></a></span></div>
-          </div>
-        </article>
-
-        <!-- Project 5 -->
-        <article class="project-card fade-up" data-type="app" data-title="MentorConnect" data-desc="A platform connecting mentors and learners with booking and sessions." data-tech="PHP, Stripe, MySQL">
-          <img src="images/Project5.png" loading="lazy" alt="MentorConnect screenshot">
-          <div>
-            <strong>Weather App</strong>
-            <div class="muted">API based weather application</div>
-            <div class="tags"><span class="tag">JS</span><span class="tag">API</span><span class="tag">PHP</span><br><br><span class="tag"><a href="https://github.com/Pankajdas0025/BasicProjects.git">View</a></span> <span class="tag"><a href="https://github.com/Pankajdas0025/BasicProjects.git">Code<i class="fa-solid fa-code"></i></a></span></div>
-          </div>
-        </article>
-
-        <!-- Project 6 -->
-        <article class="project-card fade-up" data-type="tool" data-title="SpeedChecker" data-desc="A tiny web speed checker you can run locally for quick audits." data-tech="HTML, JS">
-          <img src="images/Project5.png" loading="lazy" alt="SpeedChecker screenshot">
-          <div>
-            <strong>Key code Tracker</strong>
-            <div class="muted">Keybord key value </div>
-            <div class="tags"><span class="tag">HTML, CSS</span><span class="tag">JS</span><br><br><span class="tag"><a href="https://github.com/Pankajdas0025/BasicProjects.git">View<i class="fa-solid fa-eye"></i></a></span> <span class="tag"><a href="https://github.com/Pankajdas0025/BasicProjects.git">Code<i class="fa-solid fa-code"></i></a></span></div>
+            <strong>Social handling Page</strong>
+            <div class="muted">All social media in single page</div>
+            <div class="tags"><span class="tag">HTML,CSS</span><br><br><span class="tag"><a href="https://github.com/Pankajdas0025/RESUME_MAKER.git">View</a></span> <span class="tag"><a href="https://github.com/Pankajdas0025/RESUME_MAKER.git">Code<i class="fa-solid fa-code"></i></a></span></div>
           </div>
         </article>
 
@@ -330,7 +302,7 @@
 
         <div class="cert fade-up">
           <div>
-            <strong>PHP & MySQL Internship</strong>
+            <strong>Web Development Internship</strong>
             <div class="muted">Issued by Apex Planet Pvt Ltd. — 2025</div>
           </div>
         </div>
@@ -411,7 +383,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'pd5569121@gmail.com';
-    $mail->Password = 'carp uidg qexa uvyr'; // Gmail App Password
+        $mail->Password = 'carp uidg qexa uvyr'; // Gmail App Password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->CharSet = 'UTF-8';
@@ -427,7 +399,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                        <p><strong>Message:</strong><br>$userMessage</p>";
 
         $mail->send();
-        echo "<script>alert('✅ Message sent successfully!');</script>";
+                           echo "<script>alert('✅ Message sent successfully!'); window.location.href='index.php';</script>";
     } catch (Exception $e) {
         echo "<script>alert('❌ Email error: {$mail->ErrorInfo}');</script>";
     }
@@ -437,15 +409,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
         <aside class="card fade-up">
           <h4>Get in touch</h4>
-          <p class="muted" style="font-size: 12px;">Prefer email? Send a mail to <strong>pankajkumardas8678@gmail.com</strong> or connect on LinkedIn / GitHub.</p>
+          <p class="muted" style="font-size: 12px;">Prefer email? Send a mail to <strong>smitabsccs@gmail.com</strong> or connect on LinkedIn / GitHub.</p>
           <div style="margin-top:12px;display:flex;gap:8px">
-            <a class="btn" href="https://www.linkedin.com/in/pankaj-kumar-das-134603297"><i class="fa-brands fa-linkedin"></i></a>
-            <a class="btn" href="https://github.com/Pankajdas0025"><i class="fa-brands fa-github"></i></a>
-            <a class="btn" href="https://www.instagram.com/pankajdas_0025/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/smita-pandey-8955b732a"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="btn" href="https://github.com/smitakumari02"><i class="fa-brands fa-github"></i></a>
+            <a class="btn" href="https://www.instagram.com/smita_pandey07/"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </aside>
       </div>
     </section>
+      <a id="whatsapp" href="https://wa.me/91XXXXXXXXXX" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+    <img src="images/whatsapp-logo.png" alt="WhatsApp" style="width:28px;height:28px">
+  </a>
+  <button id="topBtn" aria-label="Scroll to top" title="Back to top"> <img src="images/Scrolltotop.png" alt="top" style="width:28px;height:28px"></button>
+
     <?php include "components/footer.php"; ?>
 <script src="script.js"></script>
 

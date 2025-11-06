@@ -1,13 +1,12 @@
 :root {
-  --bg: hsla(60, 54%, 85%, 0.407);
+  --bg: hsl(0, 0%, 100%);
   --card: #ffffff;
-  --primary: #ada50d;
-  --secondary: #dabd8b;
-  --muted: rgb(30, 3, 3);
-  --glass: rgba(255,255,255,0.06);
+  --primary: #1f2465;
+  --secondary: #000000;
+  --muted: rgb(0, 0, 0);
+  --glass: rgba(0, 0, 0, 0.06);
   --radius: 0px;
   --shadow: 0 10px 30px rgba(2,6,23,0.08);
-  --max-width: 90vw;
   --accent-grad: linear-gradient(200deg,var(--primary),var(--secondary));
 }
 
@@ -25,11 +24,12 @@
 
 }.tag
 {
-  background-color: #d8dbe1;
+  background-color: #a4a1a3;
   color: rgb(17, 16, 15);
   padding:0 10px;
   margin: 0 2px 0 0;
-  border-radius: 5px;
+  font-weight: 600;
+
 }
 html, body {
 
@@ -46,10 +46,9 @@ section, main { scroll-margin-top: 120px; }
 
 /* Layout */
 .wrap {
-  max-width: var(--max-width);
+  max-width:100%;
   margin: 32px auto;
   padding: 24px;
-
   width: 100%;
 
 }
@@ -59,11 +58,14 @@ header {
   position:sticky;
   top: 0;
   background: var(--primary);
-  padding: 8px 16px;
+  padding: 30px 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 999;
+}#tag
+{
+  color: white;
 }
 
 .brand {
@@ -113,16 +115,17 @@ nav a.active, nav a:hover {
 .hero {
   display: flex;
   flex-wrap: wrap;
-  gap: 28px;
+  gap: 8px;
   align-items: center;
   margin-top: 12px;
   width: 100%;
+  min-height:1000px;
+
 }
 
 .card {
-  background: linear-gradient(360deg, rgba(255,255,255,0.95), rgba(255,255,255,0.85));
-  border-radius: 16px;
-  padding: 28px;
+  background:rgba(255, 255, 255, 0.95);
+  padding: 28px 50px;
   box-shadow: var(--shadow);
   width: 100%;
 }
@@ -148,7 +151,6 @@ nav a.active, nav a:hover {
   background: var(--primary);
   color: white;
   padding: 10px 6px;
-  border-radius: 10px;
   font-weight: 400;
   border: none;
   cursor: pointer;
@@ -157,17 +159,16 @@ nav a.active, nav a:hover {
   gap: 10px;
 }
 
-.btn.secondary {
-  background: transparent;
+.secondary{
+  background: rgb(215, 39, 106);
   border: 2px solid rgba(15,23,42,0.06);
-  color: var(--primary);
+  color:white;
 }
 
 /* Profile */
 .profile {
   background: var(--accent-grad);
   color: white;
-  border-radius: 16px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -197,6 +198,10 @@ nav a.active, nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}.flex
+
+{
+  color: white;
 }
 
 /* Section Defaults */
@@ -239,7 +244,6 @@ section {
 .fact {
   background: var(--card);
   padding: 12px;
-  border-radius: 12px;
   box-shadow: var(--shadow);
   display: flex;
   justify-content: space-between;
@@ -249,9 +253,9 @@ section {
 
 /* Timeline */
 .timeline {
-  background: linear-gradient(180deg, rgba(99,102,241,0.04), transparent);
+  background:#22254f;
   padding: 16px;
-  border-radius: 12px;
+  color: white;
   width: 100%;
 }
 
@@ -264,7 +268,7 @@ section {
 
 .timeline .year {
   min-width: 80px;
-  color: var(--primary);
+  color:white;
   font-weight: 700;
 }
 
@@ -280,14 +284,12 @@ section {
   flex: 1 1 calc(50% - 12px);
   background: var(--card);
   padding: 12px;
-  border-radius: 10px;
   box-shadow: var(--shadow);
 }
 
 .skill .bar {
   height: 10px;
   background: rgba(2,6,23,0.06);
-  border-radius: 999px;
   margin-top: 8px;
   overflow: hidden;
 }
@@ -296,7 +298,6 @@ section {
   display: block;
   height: 100%;
   width: 0;
-  border-radius: 999px;
   background: linear-gradient(90deg,var(--primary),var(--secondary));
   transition: width 1.2s;
 }
@@ -313,7 +314,6 @@ section {
   flex: 1 1 calc(33.333% - 14px);
   background: var(--card);
   padding: 12px;
-  border-radius: 12px;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
@@ -331,7 +331,6 @@ section {
   width: 100%;
   height: 140px;
   object-fit: cover;
-  border-radius: 8px;
 }
 
 /* Certifications */
@@ -348,7 +347,6 @@ section {
   gap: 12px;
   background: var(--card);
   padding: 12px;
-  border-radius: 10px;
   box-shadow: var(--shadow);
 }
 
@@ -369,20 +367,21 @@ form {
 
 input, textarea {
   padding: 12px;
-  border-radius: 10px;
   border: 1px solid rgba(2,6,23,0.06);
-  background: white;
+  background: rgb(193, 189, 189);
 }
 
 .submit {
   background: var(--primary);
   color: white;
   padding: 12px;
-  border-radius: 10px;
   border: none;
   font-weight: 700;
   cursor: pointer;
 }
+   /* Floating buttons */
+    #whatsapp{position:fixed;left:18px;bottom:18px;width:56px;height:56px;border-radius:999px;background:#25D366;display:grid;place-items:center;box-shadow:var(--shadow);z-index:900}
+    #topBtn{position:fixed;right:20px;bottom:18px;width:56px;height:56px;border-radius:999px;background:var(--primary);display:grid;place-items:center;box-shadow:var(--shadow);z-index:900;border:none;cursor:pointer}
 
 /* Footer */
 footer {

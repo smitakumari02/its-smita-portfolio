@@ -148,3 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
   messageField.addEventListener("change", validateMessage);
 
 });
+
+
+    /* Top button */
+    document.getElementById('topBtn').addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
