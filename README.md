@@ -1,4 +1,4 @@
-# 🌟 Personal Portfolio  
+# 🌐 Personal Portfolio  
 
 it is a beautifully designed personal website that highlights my professional profile, achievements, and portfolio projects.  
 It serves as my digital identity , allowing visitors to learn more about my skills, education, and work experience in a visually appealing way.  
